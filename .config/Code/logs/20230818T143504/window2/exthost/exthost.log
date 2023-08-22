@@ -1,0 +1,25 @@
+2023-08-18 15:39:45.345 [info] Extension host with pid 12829 started
+2023-08-18 15:39:45.345 [info] Skipping acquiring lock for /home/granted07/.config/Code/User/workspaceStorage/50066d9d12fd3b3c6ee6c0c8ce503856.
+2023-08-18 15:39:45.526 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-18 15:39:45.542 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-08-18 15:39:45.572 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-08-18 15:39:45.660 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-18 15:39:45.688 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-18 15:39:45.790 [info] Eager extensions activated
+2023-08-18 15:39:45.848 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 15:39:45.857 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 15:39:45.870 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 15:39:45.907 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 15:39:46.171 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-18 15:39:46.286 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-18 15:39:46.315 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-18 15:39:46.345 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-18 15:39:47.053 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-08-18 15:39:48.305 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-18 15:39:53.230 [error] Error: Channel has been closed
+	at n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:2490)
+	at Object.appendLine (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:2608)
+	at Object.log (/home/granted07/.vscode/extensions/tabnine.tabnine-vscode-3.7.0/out/extension.js:17:136433)
+	at Object.error (/home/granted07/.vscode/extensions/tabnine.tabnine-vscode-3.7.0/out/extension.js:17:136777)
+	at t.default.request (/home/granted07/.vscode/extensions/tabnine.tabnine-vscode-3.7.0/out/extension.js:17:31759)
+2023-08-18 15:39:53.342 [info] Extension host with pid 12829 exiting with code 0

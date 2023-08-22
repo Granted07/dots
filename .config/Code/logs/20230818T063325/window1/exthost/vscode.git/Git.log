@@ -1,0 +1,27 @@
+2023-08-18 06:33:32.950 [info] Log level: Info
+2023-08-18 06:33:32.950 [info] Validating found git in: "git"
+2023-08-18 06:33:32.950 [info] Using git "2.41.0" from "git"
+2023-08-18 06:33:32.950 [info] > git rev-parse --show-toplevel [53ms]
+2023-08-18 06:33:32.950 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2023-08-18 06:33:32.950 [info] Open repository: /home/granted07/pyroinsights
+2023-08-18 06:33:32.950 [info] > git config --get commit.template [16ms]
+2023-08-18 06:33:32.950 [info] > git rev-parse --show-toplevel [18ms]
+2023-08-18 06:33:32.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2023-08-18 06:33:32.991 [info] > git rev-parse --show-toplevel [22ms]
+2023-08-18 06:33:32.996 [info] > git status -z -uall [9ms]
+2023-08-18 06:33:33.284 [info] > git config --get commit.template [256ms]
+2023-08-18 06:33:33.312 [info] > git rev-parse --show-toplevel [37ms]
+2023-08-18 06:33:33.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [196ms]
+2023-08-18 06:33:33.565 [info] > git status -z -uall [29ms]
+2023-08-18 06:33:34.231 [info] > git check-ignore -v -z --stdin [138ms]
+2023-08-18 06:33:34.500 [info] > git rev-parse --show-toplevel [316ms]
+2023-08-18 06:33:34.610 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/granted07/pyroinsights/templates/index.html [196ms]
+2023-08-18 06:33:37.247 [info] > git show --textconv :templates/index.html [48ms]
+2023-08-18 06:33:37.259 [info] > git ls-files --stage -- /home/granted07/pyroinsights/templates/index.html [14ms]
+2023-08-18 06:33:37.316 [info] > git cat-file -s 4c7aaf9a2b5f0826ae1a1faa6f21bc2bb19cd865 [5ms]
+2023-08-18 06:34:09.646 [info] > git config --get commit.template [1ms]
+2023-08-18 06:34:09.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-08-18 06:34:09.666 [info] > git status -z -uall [2ms]
+2023-08-18 06:34:34.321 [info] > git config --get commit.template [6ms]
+2023-08-18 06:34:34.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-08-18 06:34:34.388 [info] > git status -z -uall [6ms]

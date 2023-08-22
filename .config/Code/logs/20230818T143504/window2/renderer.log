@@ -1,0 +1,2 @@
+2023-08-18 15:39:44.471 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-18 15:39:46.069 [error] [Extension Host] /bin/sh: line 1: hostname: command not found

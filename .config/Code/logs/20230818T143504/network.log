@@ -1,0 +1,5 @@
+2023-08-18 14:50:31.708 [error] electron #52: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-08-18 14:52:19.950 [error] electron #53: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2023-08-18 14:52:19.951 [error] electron #54: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2023-08-18 14:55:51.814 [error] electron #55: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2023-08-18 15:01:11.938 [error] electron #56: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED

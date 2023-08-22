@@ -1,0 +1,6 @@
+2023-08-18 19:26:52.025 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/granted07/.config/neofetch/config.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-08-18 19:26:52.618 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-18 19:26:53.835 [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+2023-08-18 19:26:56.060 [info] [perf] Render performance baseline is 111ms
+2023-08-18 19:40:29.291 [error] Actual command not found, wanted to execute tabnine-completion-imports/9: Error: Actual command not found, wanted to execute tabnine-completion-imports/9
+	at a.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:78124)

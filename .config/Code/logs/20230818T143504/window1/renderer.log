@@ -1,0 +1,31 @@
+2023-08-18 14:35:05.733 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-18 14:35:08.717 [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+2023-08-18 14:35:10.839 [info] [perf] Render performance baseline is 67ms
+2023-08-18 14:36:12.646 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/granted07/pyroinsights/templates/index.html' (Error: File Modified Since) file:///home/granted07/pyroinsights/templates/index.html
+2023-08-18 14:36:18.485 [error] Unable to read file '/home/granted07/pyroinsights/templates/index.html' (Error: File not modified since): Error: Unable to read file '/home/granted07/pyroinsights/templates/index.html' (Error: File not modified since)
+    at o.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:627:16316)
+    at o.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:627:16204)
+    at async b.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:36931)
+    at async b.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:36685)
+    at async er.zb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2308:29120)
+    at async er.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2308:27567)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:32834
+2023-08-18 14:46:58.397 [error] Actual command not found, wanted to execute tabnine-completion-imports/54: Error: Actual command not found, wanted to execute tabnine-completion-imports/54
+	at a.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:78124)
+2023-08-18 14:48:02.852 [error] Actual command not found, wanted to execute tabnine-completion-imports/57: Error: Actual command not found, wanted to execute tabnine-completion-imports/57
+	at a.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:78124)
+2023-08-18 15:21:41.801 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:21:50.971 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:22:19.218 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:23:55.338 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:23:57.214 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:23:59.458 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:24:11.048 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:24:29.526 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:24:32.738 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:24:34.792 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:25:19.364 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:25:26.443 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:31:13.746 [error] An unknown error occurred. Please consult the log for more details.
+2023-08-18 15:34:54.498 [error] Actual command not found, wanted to execute tabnine-completion-imports/126: Error: Actual command not found, wanted to execute tabnine-completion-imports/126
+	at a.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:78124)

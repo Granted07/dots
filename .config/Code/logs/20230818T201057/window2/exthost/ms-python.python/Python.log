@@ -1,0 +1,6 @@
+2023-08-18 21:01:52.822 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-18 21:01:52.822 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-18 21:01:52.822 [info] Experiment 'pythonTestAdapter' is active
+2023-08-18 21:01:52.939 [info] Test server listening.
+2023-08-18 21:01:53.028 [info] Python interpreter path: /bin/python
+2023-08-18 21:02:00.692 [info] Starting Pylance language server.

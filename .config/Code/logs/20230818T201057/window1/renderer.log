@@ -1,0 +1,11 @@
+2023-08-18 20:10:58.386 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-18 20:10:59.266 [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+2023-08-18 20:11:05.232 [info] [perf] Render performance baseline is 56ms
+2023-08-18 20:23:07.003 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:506:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-08-18 20:23:33.162 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:506:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

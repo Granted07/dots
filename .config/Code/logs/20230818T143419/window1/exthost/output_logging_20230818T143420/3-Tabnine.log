@@ -1,0 +1,12 @@
+14:34:22 GMT+0400 (Seychelles Time) [INFO]: spawning binary with command: /home/granted07/.config/Code/User/globalStorage/tabnine.tabnine-vscode/binaries/4.5.28/x86_64-unknown-linux-musl/TabNine args: --print-version 
+
+14:34:22 GMT+0400 (Seychelles Time) [INFO]: spawning binary with command: /home/granted07/.config/Code/User/globalStorage/tabnine.tabnine-vscode/binaries/4.5.28/x86_64-unknown-linux-musl/TabNine args: --no-lsp=true --client=vscode --client-metadata clientVersion=1.81.1 pluginVersion=3.7.0 t9-vscode-AutoImportEnabled=true t9-vscode-TSAutoImportEnabled=true t9-vscode-JSAutoImportEnabled=true vscode-telemetry-enabled=true vscode-remote=false vscode-extension-kind=1 vscode-theme-name=Tokyo Darker Night vscode-theme-kind=Dark vscode-machine-id=5d61024d3ed8382cb2c4c9e0220d65ddcf1dce540e5b7bfb7cae0b2f819c8d49 vscode-is-new-app-install=true vscode-session-id=cd8c7fb2-39be-4005-89fa-7784b9f2b1e41692354859628 vscode-language=en vscode-app-name=Visual Studio Code vscode-beta-channel-enabled=false vscode-status-customization=unknown vscode-inline-api-enabled=true ide-restart-counter=0 
+
+14:34:22 GMT+0400 (Seychelles Time) [DEBUG]: capabilities resolved immediately 
+
+14:34:24 GMT+0400 (Seychelles Time) [ERROR]: validating /home/granted07/.config/Code/User/globalStorage/tabnine.tabnine-vscode/binaries/4.5.28/x86_64-unknown-linux-musl/TabNine timeout 
+
+14:34:26 GMT+0400 (Seychelles Time) [ERROR]: Error: Binary request timed out. {"State":{}} 
+
+14:35:01 GMT+0400 (Seychelles Time) [WARN]: assistant is closing 
+

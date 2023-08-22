@@ -1,0 +1,7 @@
+2023-08-18 14:34:22.484 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-18 14:34:22.484 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-18 14:34:22.484 [info] Experiment 'pythonTestAdapter' is active
+2023-08-18 14:34:22.484 [info] Test server listening.
+2023-08-18 14:34:22.484 [info] Python interpreter path: /bin/python
+2023-08-18 14:34:25.810 [info] Starting Pylance language server.
+2023-08-18 14:34:41.513 [info] Discover tests for workspace name: pyroinsights - uri: /home/granted07/pyroinsights/.vscode/settings.json

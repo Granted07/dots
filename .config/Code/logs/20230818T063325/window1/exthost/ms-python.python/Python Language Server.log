@@ -1,0 +1,7 @@
+2023-08-18 06:33:38.125 [info] [Info  - 6:33:38 AM] (114619) Pylance language server 2023.8.30 (pyright 634c8074) starting
+2023-08-18 06:33:38.125 [info] [Info  - 6:33:38 AM] (114619) Server root directory: /home/granted07/.vscode/extensions/ms-python.vscode-pylance-2023.8.30/dist
+2023-08-18 06:33:38.181 [info] [Info  - 6:33:38 AM] (114619) Starting service instance "pyroinsights"
+2023-08-18 06:33:38.320 [info] [Info  - 6:33:38 AM] (114619) Setting pythonPath for service "pyroinsights": "/bin/python"
+2023-08-18 06:33:38.359 [info] [Warn  - 6:33:38 AM] (114619) stubPath /home/granted07/pyroinsights/typings is not a valid directory.
+2023-08-18 06:33:38.531 [info] [Info  - 6:33:38 AM] (114619) Assuming Python version 3.11
+2023-08-18 06:33:38.940 [info] [Info  - 6:33:38 AM] (114619) Found 1 source file

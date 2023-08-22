@@ -1,0 +1,17 @@
+2023-08-18 20:10:58.753 [info] Extension host with pid 25939 started
+2023-08-18 20:10:58.753 [info] Skipping acquiring lock for /home/granted07/.config/Code/User/workspaceStorage/0f5c263f5333b2ba2f464de6bd8a253a.
+2023-08-18 20:10:58.863 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-18 20:10:58.867 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-08-18 20:10:58.903 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2023-08-18 20:10:58.945 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-18 20:10:58.979 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-18 20:10:59.059 [info] Eager extensions activated
+2023-08-18 20:10:59.105 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 20:10:59.109 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 20:10:59.116 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 20:10:59.142 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-08-18 20:10:59.390 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-18 20:10:59.429 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-18 20:10:59.481 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-18 20:10:59.947 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-08-18 20:11:00.122 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'

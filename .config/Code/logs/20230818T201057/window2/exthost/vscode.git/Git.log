@@ -1,0 +1,21 @@
+2023-08-18 21:01:53.735 [info] Log level: Info
+2023-08-18 21:01:53.735 [info] Validating found git in: "git"
+2023-08-18 21:01:53.735 [info] Using git "2.41.0" from "git"
+2023-08-18 21:01:53.735 [info] > git rev-parse --show-toplevel [10ms]
+2023-08-18 21:01:53.735 [info] > git rev-parse --git-dir --git-common-dir [59ms]
+2023-08-18 21:01:53.735 [info] Open repository: /home/granted07/pyroinsights
+2023-08-18 21:01:53.735 [info] > git rev-parse --show-toplevel [7ms]
+2023-08-18 21:01:53.735 [info] > git config --get commit.template [30ms]
+2023-08-18 21:01:53.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2023-08-18 21:01:53.735 [info] > git status -z -uall [131ms]
+2023-08-18 21:01:53.745 [info] > git config --get commit.template [25ms]
+2023-08-18 21:01:53.745 [info] > git rev-parse --show-toplevel [45ms]
+2023-08-18 21:01:53.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [46ms]
+2023-08-18 21:01:53.879 [info] > git status -z -uall [7ms]
+2023-08-18 21:01:53.885 [info] > git rev-parse --show-toplevel [45ms]
+2023-08-18 21:01:53.947 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-18 21:01:54.836 [info] > git check-ignore -v -z --stdin [67ms]
+2023-08-18 21:01:55.044 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n348 -- /home/granted07/pyroinsights/static/css/style.css [51ms]
+2023-08-18 21:01:58.518 [info] > git show --textconv :static/css/style.css [137ms]
+2023-08-18 21:01:58.528 [info] > git ls-files --stage -- /home/granted07/pyroinsights/static/css/style.css [90ms]
+2023-08-18 21:01:58.648 [info] > git cat-file -s b6057455842e6c754cf71f99f3a3695bd8f12ed8 [65ms]
