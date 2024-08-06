@@ -1,10 +1,10 @@
-#!bin/sh
 source ~/.zsh_plugs/funcs.zsh 
 sxhkd &
-autorandr --change primary &
+#autorandr --change primary &
 dunst &
 picom &
-sh polybar-themes/simple/launch.sh --hack &
+flameshot &
+polybar-themes/simple/launch.sh --hack &
 # network manager applet
 nm-applet &
 
@@ -15,7 +15,6 @@ fi
 
 
 # wallpaper
-nitrogen --restore &
 lxsession &
 # policy kit
 if [[ ! `pidof xfce-polkit` ]]; then
