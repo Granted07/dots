@@ -1,3 +1,4 @@
+alias hx="helix"
 alias gtc="git clone"
 alias ls="ls -a --color"
 autoload -U colors && colors
@@ -11,7 +12,8 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
 
-
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export PATH="$PATH:$HOME/.local/bin"
 export HISTFILE=~/.histfile
 export HISTSIZE=1000000   # the number of items for the internal history list
 export SAVEHIST=1000000   # maximum number of items for the history file
@@ -28,12 +30,26 @@ alias ipinfo="curl ipinfo.io"
 alias parrot="curl parrot.live"
 alias moon="curl wttr.in/moon"
 
-function send_files()
-{
-  url=$1
-  curl -F"file=@$url" -Fsecret="$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13 ; echo '')" https://0x0.st/
-  
+function send_files() {
+  local file="$1"
+
+  if [[ -z "$file" || ! -f "$file" ]]; then
+    echo "usage: send_files <file>"
+    return 1
+  fi
+
+  local secret
+  secret="$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13)"
+
+  curl -4 \
+    --progress-bar \
+    --write-out '\n\nUploaded: %{size_upload} bytes\nSpeed: %{speed_upload} bytes/sec\nTime: %{time_total}s\n' \
+    -F "file=@${file}" \
+    -F "secret=${secret}" \
+    https://0x0.st/
 }
+
+
 function cheat(){
   curl cheat.sh/$1
 }
@@ -118,6 +134,35 @@ function _zle-with-style() {
 	[[ -n "$3" ]] && WORDCHARS="${WORDCHARS}${3}"
 	select-word-style normal
 }
+
+# Override unzip using 7z and delete archive after extraction
+unzip() {
+  if [[ $# -lt 1 ]]; then
+    echo "usage: unzip <archive>" >&2
+    return 1
+  fi
+
+  local archive="$1"
+
+  if [[ ! -f "$archive" ]]; then
+    echo "unzip: file not found: $archive" >&2
+    return 1
+  fi
+
+  local base="${archive:t}"
+  local name="${base%%.*}"
+
+  mkdir -p "$name" || return 1
+
+  if 7z x "$archive" -o"$name"; then
+    rm -f -- "$archive"
+  else
+    echo "unzip: extraction failed, archive not removed" >&2
+    return 1
+  fi
+}
+
+
 
 function _backward-word()		{ _zle-with-style backward-word			bash }
 function _forward-word()		{ _zle-with-style forward-word			bash }
@@ -262,3 +307,9 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/granted/.dart-cli-completion/zsh-config.zsh ]] && . /home/granted/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

@@ -1,0 +1,7 @@
+[user]
+	email = anjishnu.04032007@gmail.com
+	name = Anjishnu Dey
+[safe]
+	directory = /
+[init]
+	defaultBranch = main
